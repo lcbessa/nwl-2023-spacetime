@@ -1,0 +1,25 @@
+{
+  "name": "nwl-2023-spacetime",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado para o desenvolvimento de uma cápsula do tempo (spacetime), do evento Next Level Week da Rocketseat, na semana do dia 15 a 19 de maio de 2023.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "Luiz Carlos Bessa de Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^20.1.7",
+    "eslint": "^8.40.0",
+    "prisma": "^4.14.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.0",
+    "fastify": "^4.17.0"
+  }
+}
